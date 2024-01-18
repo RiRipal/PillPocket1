@@ -1,0 +1,720 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A16C5B622B71D65A0002A530 /* LocalNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EBECC52B5B09920011F328 /* LocalNotificationManager.swift */; };
+		A16C5B632B71D6620002A530 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EBECC92B5B1BB40011F328 /* NotificationManager.swift */; };
+		A16C5B642B71D9B00002A530 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17C86BD2B59CFAF00B3DEBE /* HomeView.swift */; };
+		A16C5B652B71D9B30002A530 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17C868B2B59CE5700B3DEBE /* ContentView.swift */; };
+		A16C5B672B71DA250002A530 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17C86C12B59CFE200B3DEBE /* DatabaseManager.swift */; };
+		A16C5B682B71DA2D0002A530 /* PillPocketApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17C86892B59CE5700B3DEBE /* PillPocketApp.swift */; };
+		A16C5B692B71DA300002A530 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EBECC92B5B1BB40011F328 /* NotificationManager.swift */; };
+		A16C5B6A2B71DA350002A530 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17C86CD2B59D07300B3DEBE /* AddView.swift */; };
+		A16C5B6C2B71DA3B0002A530 /* LocalNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EBECC52B5B09920011F328 /* LocalNotificationManager.swift */; };
+		A16C5B6D2B71DA6B0002A530 /* Refills.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17C86C92B59D00F00B3DEBE /* Refills.swift */; };
+		A17C868A2B59CE5700B3DEBE /* PillPocketApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17C86892B59CE5700B3DEBE /* PillPocketApp.swift */; };
+		A17C868C2B59CE5700B3DEBE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17C868B2B59CE5700B3DEBE /* ContentView.swift */; };
+		A17C868E2B59CE5A00B3DEBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A17C868D2B59CE5A00B3DEBE /* Assets.xcassets */; };
+		A17C86912B59CE5A00B3DEBE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A17C86902B59CE5A00B3DEBE /* Preview Assets.xcassets */; };
+		A17C86BE2B59CFAF00B3DEBE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17C86BD2B59CFAF00B3DEBE /* HomeView.swift */; };
+		A17C86BF2B59CFAF00B3DEBE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17C86BD2B59CFAF00B3DEBE /* HomeView.swift */; };
+		A17C86C22B59CFE200B3DEBE /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17C86C12B59CFE200B3DEBE /* DatabaseManager.swift */; };
+		A17C86C32B59CFE200B3DEBE /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17C86C12B59CFE200B3DEBE /* DatabaseManager.swift */; };
+		A17C86C62B59CFF900B3DEBE /* MedicationReminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17C86C52B59CFF900B3DEBE /* MedicationReminder.swift */; };
+		A17C86C72B59CFF900B3DEBE /* MedicationReminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17C86C52B59CFF900B3DEBE /* MedicationReminder.swift */; };
+		A17C86CA2B59D00F00B3DEBE /* Refills.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17C86C92B59D00F00B3DEBE /* Refills.swift */; };
+		A17C86CB2B59D00F00B3DEBE /* Refills.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17C86C92B59D00F00B3DEBE /* Refills.swift */; };
+		A17C86D12B59D0CF00B3DEBE /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17C86CD2B59D07300B3DEBE /* AddView.swift */; };
+		A17C86D42B59D18A00B3DEBE /* SQLite in Frameworks */ = {isa = PBXBuildFile; productRef = A17C86D32B59D18A00B3DEBE /* SQLite */; };
+		A17C86DB2B59E16600B3DEBE /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17C86CD2B59D07300B3DEBE /* AddView.swift */; };
+		A17C86DD2B59E17000B3DEBE /* PillPocketApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17C86892B59CE5700B3DEBE /* PillPocketApp.swift */; };
+		A17C86DF2B59E17900B3DEBE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17C868B2B59CE5700B3DEBE /* ContentView.swift */; };
+		A17C86E52B59E21C00B3DEBE /* PillPocketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17C869A2B59CE5A00B3DEBE /* PillPocketTests.swift */; };
+		A17C86E92B59E46D00B3DEBE /* SQLite in Frameworks */ = {isa = PBXBuildFile; productRef = A17C86E82B59E46D00B3DEBE /* SQLite */; };
+		A17C87002B59E7F100B3DEBE /* PillPocketUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17C86FF2B59E7F100B3DEBE /* PillPocketUITests.swift */; };
+		A17C87022B59E7F100B3DEBE /* PillPocketUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17C87012B59E7F100B3DEBE /* PillPocketUITestsLaunchTests.swift */; };
+		A17C87092B59E90600B3DEBE /* SQLite in Frameworks */ = {isa = PBXBuildFile; productRef = A17C87082B59E90600B3DEBE /* SQLite */; };
+		A17C870A2B5A373000B3DEBE /* MedicationReminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17C86C52B59CFF900B3DEBE /* MedicationReminder.swift */; };
+		A1EBECC62B5B09920011F328 /* LocalNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EBECC52B5B09920011F328 /* LocalNotificationManager.swift */; };
+		A1EBECCA2B5B1BB40011F328 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EBECC92B5B1BB40011F328 /* NotificationManager.swift */; };
+		A1F422AE2B72C414009C5909 /* RemindersManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F422AD2B72C414009C5909 /* RemindersManager.swift */; };
+		A1F422AF2B72C414009C5909 /* RemindersManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F422AD2B72C414009C5909 /* RemindersManager.swift */; };
+		A1F422B02B72C414009C5909 /* RemindersManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F422AD2B72C414009C5909 /* RemindersManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A17C86972B59CE5A00B3DEBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A17C867E2B59CE5700B3DEBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A17C86852B59CE5700B3DEBE;
+			remoteInfo = PillTracker;
+		};
+		A17C87032B59E7F100B3DEBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A17C867E2B59CE5700B3DEBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A17C86852B59CE5700B3DEBE;
+			remoteInfo = PillTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F7162092BBB742D00FBBC36 /* Pill-Pocket-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Pill-Pocket-Info.plist"; sourceTree = "<group>"; };
+		A17C86862B59CE5700B3DEBE /* Pill Pocket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pill Pocket.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A17C86892B59CE5700B3DEBE /* PillPocketApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillPocketApp.swift; sourceTree = "<group>"; };
+		A17C868B2B59CE5700B3DEBE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A17C868D2B59CE5A00B3DEBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A17C86902B59CE5A00B3DEBE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A17C86962B59CE5A00B3DEBE /* Pill PocketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pill PocketTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A17C869A2B59CE5A00B3DEBE /* PillPocketTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillPocketTests.swift; sourceTree = "<group>"; };
+		A17C86BD2B59CFAF00B3DEBE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A17C86C12B59CFE200B3DEBE /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		A17C86C52B59CFF900B3DEBE /* MedicationReminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationReminder.swift; sourceTree = "<group>"; };
+		A17C86C92B59D00F00B3DEBE /* Refills.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Refills.swift; sourceTree = "<group>"; };
+		A17C86CD2B59D07300B3DEBE /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		A17C86FD2B59E7F100B3DEBE /* Pill PocketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pill PocketUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A17C86FF2B59E7F100B3DEBE /* PillPocketUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillPocketUITests.swift; sourceTree = "<group>"; };
+		A17C87012B59E7F100B3DEBE /* PillPocketUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillPocketUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A1EBECC52B5B09920011F328 /* LocalNotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationManager.swift; sourceTree = "<group>"; };
+		A1EBECC92B5B1BB40011F328 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		A1F422AD2B72C414009C5909 /* RemindersManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A17C86832B59CE5700B3DEBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A17C86D42B59D18A00B3DEBE /* SQLite in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17C86932B59CE5A00B3DEBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A17C86E92B59E46D00B3DEBE /* SQLite in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17C86FA2B59E7F100B3DEBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A17C87092B59E90600B3DEBE /* SQLite in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A17C867D2B59CE5700B3DEBE = {
+			isa = PBXGroup;
+			children = (
+				1F7162092BBB742D00FBBC36 /* Pill-Pocket-Info.plist */,
+				A17C86882B59CE5700B3DEBE /* PillPocket */,
+				A17C86992B59CE5A00B3DEBE /* PillPocketTests */,
+				A17C86FE2B59E7F100B3DEBE /* PillPocketUITests */,
+				A17C86872B59CE5700B3DEBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A17C86872B59CE5700B3DEBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A17C86862B59CE5700B3DEBE /* Pill Pocket.app */,
+				A17C86962B59CE5A00B3DEBE /* Pill PocketTests.xctest */,
+				A17C86FD2B59E7F100B3DEBE /* Pill PocketUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A17C86882B59CE5700B3DEBE /* PillPocket */ = {
+			isa = PBXGroup;
+			children = (
+				A1EBECC92B5B1BB40011F328 /* NotificationManager.swift */,
+				A17C86892B59CE5700B3DEBE /* PillPocketApp.swift */,
+				A17C868B2B59CE5700B3DEBE /* ContentView.swift */,
+				A17C86BD2B59CFAF00B3DEBE /* HomeView.swift */,
+				A17C86C12B59CFE200B3DEBE /* DatabaseManager.swift */,
+				A17C86C52B59CFF900B3DEBE /* MedicationReminder.swift */,
+				A17C86C92B59D00F00B3DEBE /* Refills.swift */,
+				A17C86CD2B59D07300B3DEBE /* AddView.swift */,
+				A1EBECC52B5B09920011F328 /* LocalNotificationManager.swift */,
+				A1F422AD2B72C414009C5909 /* RemindersManager.swift */,
+				A17C868D2B59CE5A00B3DEBE /* Assets.xcassets */,
+				A17C868F2B59CE5A00B3DEBE /* Preview Content */,
+			);
+			path = PillPocket;
+			sourceTree = "<group>";
+		};
+		A17C868F2B59CE5A00B3DEBE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A17C86902B59CE5A00B3DEBE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A17C86992B59CE5A00B3DEBE /* PillPocketTests */ = {
+			isa = PBXGroup;
+			children = (
+				A17C869A2B59CE5A00B3DEBE /* PillPocketTests.swift */,
+			);
+			path = PillPocketTests;
+			sourceTree = "<group>";
+		};
+		A17C86FE2B59E7F100B3DEBE /* PillPocketUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A17C86FF2B59E7F100B3DEBE /* PillPocketUITests.swift */,
+				A17C87012B59E7F100B3DEBE /* PillPocketUITestsLaunchTests.swift */,
+			);
+			path = PillPocketUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A17C86852B59CE5700B3DEBE /* Pill Pocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A17C86AA2B59CE5A00B3DEBE /* Build configuration list for PBXNativeTarget "Pill Pocket" */;
+			buildPhases = (
+				A17C86822B59CE5700B3DEBE /* Sources */,
+				A17C86832B59CE5700B3DEBE /* Frameworks */,
+				A17C86842B59CE5700B3DEBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pill Pocket";
+			packageProductDependencies = (
+				A17C86D32B59D18A00B3DEBE /* SQLite */,
+			);
+			productName = PillTracker;
+			productReference = A17C86862B59CE5700B3DEBE /* Pill Pocket.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A17C86952B59CE5A00B3DEBE /* Pill PocketTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A17C86AD2B59CE5A00B3DEBE /* Build configuration list for PBXNativeTarget "Pill PocketTests" */;
+			buildPhases = (
+				A17C86922B59CE5A00B3DEBE /* Sources */,
+				A17C86932B59CE5A00B3DEBE /* Frameworks */,
+				A17C86942B59CE5A00B3DEBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A17C86982B59CE5A00B3DEBE /* PBXTargetDependency */,
+			);
+			name = "Pill PocketTests";
+			packageProductDependencies = (
+				A17C86E82B59E46D00B3DEBE /* SQLite */,
+			);
+			productName = PillTrackerTests;
+			productReference = A17C86962B59CE5A00B3DEBE /* Pill PocketTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A17C86FC2B59E7F100B3DEBE /* Pill PocketUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A17C87052B59E7F100B3DEBE /* Build configuration list for PBXNativeTarget "Pill PocketUITests" */;
+			buildPhases = (
+				A17C86F92B59E7F100B3DEBE /* Sources */,
+				A17C86FA2B59E7F100B3DEBE /* Frameworks */,
+				A17C86FB2B59E7F100B3DEBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A17C87042B59E7F100B3DEBE /* PBXTargetDependency */,
+			);
+			name = "Pill PocketUITests";
+			packageProductDependencies = (
+				A17C87082B59E90600B3DEBE /* SQLite */,
+			);
+			productName = PillTrackerUITests;
+			productReference = A17C86FD2B59E7F100B3DEBE /* Pill PocketUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A17C867E2B59CE5700B3DEBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					A17C86852B59CE5700B3DEBE = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					A17C86952B59CE5A00B3DEBE = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = A17C86852B59CE5700B3DEBE;
+					};
+					A17C86FC2B59E7F100B3DEBE = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = A17C86852B59CE5700B3DEBE;
+					};
+				};
+			};
+			buildConfigurationList = A17C86812B59CE5700B3DEBE /* Build configuration list for PBXProject "Pill Pocket" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A17C867D2B59CE5700B3DEBE;
+			packageReferences = (
+				A17C86D22B59D18A00B3DEBE /* XCRemoteSwiftPackageReference "SQLite.swift" */,
+			);
+			productRefGroup = A17C86872B59CE5700B3DEBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A17C86852B59CE5700B3DEBE /* Pill Pocket */,
+				A17C86952B59CE5A00B3DEBE /* Pill PocketTests */,
+				A17C86FC2B59E7F100B3DEBE /* Pill PocketUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A17C86842B59CE5700B3DEBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A17C86912B59CE5A00B3DEBE /* Preview Assets.xcassets in Resources */,
+				A17C868E2B59CE5A00B3DEBE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17C86942B59CE5A00B3DEBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17C86FB2B59E7F100B3DEBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A17C86822B59CE5700B3DEBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A17C86D12B59D0CF00B3DEBE /* AddView.swift in Sources */,
+				A17C86C62B59CFF900B3DEBE /* MedicationReminder.swift in Sources */,
+				A1F422AE2B72C414009C5909 /* RemindersManager.swift in Sources */,
+				A1EBECCA2B5B1BB40011F328 /* NotificationManager.swift in Sources */,
+				A17C86CA2B59D00F00B3DEBE /* Refills.swift in Sources */,
+				A1EBECC62B5B09920011F328 /* LocalNotificationManager.swift in Sources */,
+				A17C86C22B59CFE200B3DEBE /* DatabaseManager.swift in Sources */,
+				A17C868C2B59CE5700B3DEBE /* ContentView.swift in Sources */,
+				A17C86BE2B59CFAF00B3DEBE /* HomeView.swift in Sources */,
+				A17C868A2B59CE5700B3DEBE /* PillPocketApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17C86922B59CE5A00B3DEBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A17C86CB2B59D00F00B3DEBE /* Refills.swift in Sources */,
+				A1F422AF2B72C414009C5909 /* RemindersManager.swift in Sources */,
+				A16C5B622B71D65A0002A530 /* LocalNotificationManager.swift in Sources */,
+				A17C86BF2B59CFAF00B3DEBE /* HomeView.swift in Sources */,
+				A16C5B632B71D6620002A530 /* NotificationManager.swift in Sources */,
+				A17C86DB2B59E16600B3DEBE /* AddView.swift in Sources */,
+				A17C86DD2B59E17000B3DEBE /* PillPocketApp.swift in Sources */,
+				A17C86DF2B59E17900B3DEBE /* ContentView.swift in Sources */,
+				A17C86C72B59CFF900B3DEBE /* MedicationReminder.swift in Sources */,
+				A17C86C32B59CFE200B3DEBE /* DatabaseManager.swift in Sources */,
+				A17C86E52B59E21C00B3DEBE /* PillPocketTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17C86F92B59E7F100B3DEBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A16C5B6C2B71DA3B0002A530 /* LocalNotificationManager.swift in Sources */,
+				A16C5B6D2B71DA6B0002A530 /* Refills.swift in Sources */,
+				A17C870A2B5A373000B3DEBE /* MedicationReminder.swift in Sources */,
+				A16C5B652B71D9B30002A530 /* ContentView.swift in Sources */,
+				A16C5B6A2B71DA350002A530 /* AddView.swift in Sources */,
+				A16C5B672B71DA250002A530 /* DatabaseManager.swift in Sources */,
+				A16C5B682B71DA2D0002A530 /* PillPocketApp.swift in Sources */,
+				A16C5B642B71D9B00002A530 /* HomeView.swift in Sources */,
+				A1F422B02B72C414009C5909 /* RemindersManager.swift in Sources */,
+				A17C87022B59E7F100B3DEBE /* PillPocketUITestsLaunchTests.swift in Sources */,
+				A16C5B692B71DA300002A530 /* NotificationManager.swift in Sources */,
+				A17C87002B59E7F100B3DEBE /* PillPocketUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A17C86982B59CE5A00B3DEBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A17C86852B59CE5700B3DEBE /* Pill Pocket */;
+			targetProxy = A17C86972B59CE5A00B3DEBE /* PBXContainerItemProxy */;
+		};
+		A17C87042B59E7F100B3DEBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A17C86852B59CE5700B3DEBE /* Pill Pocket */;
+			targetProxy = A17C87032B59E7F100B3DEBE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A17C86A82B59CE5A00B3DEBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = X59JSHG79P;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A17C86A92B59CE5A00B3DEBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = X59JSHG79P;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A17C86AB2B59CE5A00B3DEBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"PillPocket/Preview Content\"";
+				DEVELOPMENT_TEAM = X59JSHG79P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Pill-Pocket-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera Access needed to take picture to add values of the Prescription to New Medicine screen";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.6;
+				PRODUCT_BUNDLE_IDENTIFIER = com.R3GV.PillPocket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A17C86AC2B59CE5A00B3DEBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"PillPocket/Preview Content\"";
+				DEVELOPMENT_TEAM = X59JSHG79P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Pill-Pocket-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera Access needed to take picture to add values of the Prescription to New Medicine screen";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.6;
+				PRODUCT_BUNDLE_IDENTIFIER = com.R3GV.PillPocket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A17C86AE2B59CE5A00B3DEBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X59JSHG79P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.R3GV.PillPocketTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pill Pocket.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pill Pocket";
+			};
+			name = Debug;
+		};
+		A17C86AF2B59CE5A00B3DEBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X59JSHG79P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.R3GV.PillPocketTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pill Pocket.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pill Pocket";
+			};
+			name = Release;
+		};
+		A17C87062B59E7F100B3DEBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QUYP3Z95FY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.R3GV.PillPocketUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PillPocket;
+			};
+			name = Debug;
+		};
+		A17C87072B59E7F100B3DEBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QUYP3Z95FY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.R3GV.PillPocketUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PillPocket;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A17C86812B59CE5700B3DEBE /* Build configuration list for PBXProject "Pill Pocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A17C86A82B59CE5A00B3DEBE /* Debug */,
+				A17C86A92B59CE5A00B3DEBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A17C86AA2B59CE5A00B3DEBE /* Build configuration list for PBXNativeTarget "Pill Pocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A17C86AB2B59CE5A00B3DEBE /* Debug */,
+				A17C86AC2B59CE5A00B3DEBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A17C86AD2B59CE5A00B3DEBE /* Build configuration list for PBXNativeTarget "Pill PocketTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A17C86AE2B59CE5A00B3DEBE /* Debug */,
+				A17C86AF2B59CE5A00B3DEBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A17C87052B59E7F100B3DEBE /* Build configuration list for PBXNativeTarget "Pill PocketUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A17C87062B59E7F100B3DEBE /* Debug */,
+				A17C87072B59E7F100B3DEBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A17C86D22B59D18A00B3DEBE /* XCRemoteSwiftPackageReference "SQLite.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stephencelis/SQLite.swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.14.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A17C86D32B59D18A00B3DEBE /* SQLite */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A17C86D22B59D18A00B3DEBE /* XCRemoteSwiftPackageReference "SQLite.swift" */;
+			productName = SQLite;
+		};
+		A17C86E82B59E46D00B3DEBE /* SQLite */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A17C86D22B59D18A00B3DEBE /* XCRemoteSwiftPackageReference "SQLite.swift" */;
+			productName = SQLite;
+		};
+		A17C87082B59E90600B3DEBE /* SQLite */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A17C86D22B59D18A00B3DEBE /* XCRemoteSwiftPackageReference "SQLite.swift" */;
+			productName = SQLite;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A17C867E2B59CE5700B3DEBE /* Project object */;
+}
